@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube-html</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+        }
+        .video{
+            position: relative;
+            padding-bottom: 56%;
+            height: 0;
+            overflow: hidden;
+            margin-top: 20px;
+
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Learn HTML Basics</h1>
+    <p>Watch this beginner-friendly video tutorial to get started with Html.it covers the eddential tags structure, and conceptsyou need to begin web pagers</p>
+    
+    <div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UZXvRsMsCb0?si=coTP4y6uL3574uK8"
+title="youtube video play"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
